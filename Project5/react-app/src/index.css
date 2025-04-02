@@ -1,0 +1,10 @@
+.welcome-message{
+    background-color: green;
+    width: fit-content;
+    border: 5px solid black;
+}
+.login-prompt{
+    background-color: red;
+    width: fit-content;
+    border: 5px solid black;
+}
