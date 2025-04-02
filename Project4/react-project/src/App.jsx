@@ -5,7 +5,8 @@
 // age: PropTypes.number
 
 
-import Student from "./Student.jsx"
+import Student from "./Student.jsx"; // Убедитесь, что путь правильный
+
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
       <Student name="Spongebob" age={30} isStudent={true}/>
       <Student name="Patric" age={37} isStudent={false}/>
       <Student name="Sandy" age={28} isStudent={false}/>
-      <Student/>
-      <Student/>
-      <Student/>
+      <Student name="Misha"/>
+      <Student name=""/>
+      <Student name=""/>
     </>
   )
 }

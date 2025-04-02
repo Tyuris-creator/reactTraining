@@ -4,7 +4,8 @@
 // component 
 // name: "Guest"
 
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import React from 'react';
 
 function Student(props){
     return (
@@ -20,12 +21,13 @@ Student.propTypes = {
     age: PropTypes.number,
     name: PropTypes.string,
     isStudent: PropTypes.bool,
-}
+};
 
 Student.defaultProps = {
     name: "Guest",
     age: 0,
-    isStudent: false
-}
+    isStudent: false,
+};
+
 
 export default Student
