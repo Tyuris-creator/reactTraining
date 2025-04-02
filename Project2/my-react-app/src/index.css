@@ -1,0 +1,21 @@
+.card{
+  border: 1px solid hsla(0, 0%, 74%, 0.842);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 8%, 0.411);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .logo {
+  max-width: 80%;
+  border-radius: 50%;
+  margin-bottom: 10%;
+}
+
+.card .card-title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.849);
+}
